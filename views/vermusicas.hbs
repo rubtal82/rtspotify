@@ -1,0 +1,9 @@
+<figure>
+    <figcaption><h1>Lista de Musicas:</h1></figcaption>
+    {{#each musica}}
+    <h4 class="card-title">{{this.name}}</h4>
+    <audio controls src="{{this.preview_url}}"></audio>
+    
+    {{/each}}
+
+</figure>
